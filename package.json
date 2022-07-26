@@ -1,8 +1,14 @@
 {
   "name": "ryan-test-component",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "description": "Test react component",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "types": "lib/esm/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjwilsondev/testing-react-publish-to-npm.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node tools/build.js",
@@ -45,5 +51,8 @@
     "@types/react": {
       "optional": true
     }
+  },
+  "publishConfig": {
+    "directory": "lib"
   }
 }

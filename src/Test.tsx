@@ -5,6 +5,6 @@ export interface TestProps {
   name?: string
 }
 
-export function Test({name = "World"}: TestProps) {
+export default function Test({name = "World"}: TestProps) {
   return <div>Hello {name}</div>;
 }

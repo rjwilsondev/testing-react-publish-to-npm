@@ -1,0 +1,7 @@
+{
+  "name": "testing-react/Test",
+  "private": true,
+  "main": "../cjs/Test.js",
+  "module": "../esm/Test.js",
+  "types": "../esm/Test.d.ts"
+}
